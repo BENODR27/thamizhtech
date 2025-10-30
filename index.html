@@ -328,10 +328,10 @@
                 <div class="inner">
                   <div class="thumbnail">
                     <a href="https://srtemplejewellery.com" target="_blank">
-                      <!-- <img
+                      <img
                         src="projects/srt-project.png"
                         alt="Personal Portfolio Images"
-                      /> -->
+                      />
                     </a>
                   </div>
                   <div class="content">
@@ -367,10 +367,10 @@
                       href="https://www.maragathaamanuscripts.in"
                       target="_blank"
                     >
-                      <!-- <img
+                      <img
                         src="projects/mm-project.png"
                         alt="Personal Portfolio Images"
-                      /> -->
+                      />
                     </a>
                   </div>
                   <div class="content">
@@ -1039,6 +1039,12 @@
     <script src="assets/js/vendor/particles.js"></script>
     <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
     <!-- main JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js" defer></script>
+    <!-- Initialize AOS -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        AOS.init();
+      });
+    </script>
   </body>
 </html>
