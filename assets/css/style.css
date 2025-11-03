@@ -45,7 +45,7 @@
   --color-primary: #49acbc;
   --color-secondary: #f4f5f6;
   --color-tertiary: #0d1013;
-  --color-gray: #f6f6f6;
+  --color-gray: #a21919;
   --color-subtitle: #038bce;
   --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
   --background-color-2: #212428;
@@ -21732,3 +21732,7 @@ body.white-version .rn-btn-ulderline {
 }
 
 /*# sourceMappingURL=../maps/style.css.map */
+
+body{
+  background-color: #edf3fa !important;
+}
